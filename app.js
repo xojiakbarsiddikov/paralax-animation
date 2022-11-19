@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function(e) {
-    if (e.target.scrollingElement.scrollTop >= 350 && document.getElementById("main").scrollTop <= 200) {
-        document.getElementById("main").scroll({top: e.target.scrollingElement.scrollTop-370, behavior: "auto"})
+    if (e.target.scrollingElement.scrollTop >= 250 && document.getElementById("main").scrollTop <= 250) {
+        document.getElementById("main").scroll({top: e.target.scrollingElement.scrollTop-270, behavior: "auto"})
     }
     else if(e.target.scrollingElement.scrollTop >= 1300 && document.getElementById("main").scrollTop <= 1300) {
         document.getElementById("main").scroll({top: e.target.scrollingElement.scrollTop-900, behavior: "auto"})
@@ -8,7 +8,7 @@ window.addEventListener("scroll", function(e) {
     }
 
     if (e.target.scrollingElement.scrollTop <= 770 && document.getElementById("main").scrollTop <= 800) {
-        document.getElementById("main").scroll({top: e.target.scrollingElement.scrollTop-370, behavior: "auto"})
+        document.getElementById("main").scroll({top: e.target.scrollingElement.scrollTop-350, behavior: "auto"})
     }
 
 }, false);
